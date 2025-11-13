@@ -6,7 +6,6 @@ Retorna: float: O valor da gorjeta calculada'''
 
 valorConta = float(input("Digite o valor total da conta: "))
 porcentagemGorjeta = float(input("Digite a porcentagem da gorjeta desejada: "))
-calcular_gorjeta(valorConta, porcentagemGorjeta)
 def calcular_gorjeta(valor_conta, porcentagem_gorjeta):
     gorjeta = (porcentagem_gorjeta / 100) * valor_conta
     return print(f"O valor da gorjeta é: R$ {gorjeta:.2f}")

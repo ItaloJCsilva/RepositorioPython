@@ -7,20 +7,13 @@ import string
 
 def gerar_senha(comprimento):
     caracteres = string.ascii_letters + string.digits + string.punctuation
-    
-    # Lista temporária para armazenar os caracteres
     lista_de_caracteres = []
-    
-    # Loop 'for' explícito para adicionar caracteres à lista
     for _ in range(comprimento):
         caractere_aleatorio = random.choice(caracteres)
         lista_de_caracteres.append(caractere_aleatorio)
-        
-    # Junta todos os caracteres da lista em uma única string
     senha = ''.join(lista_de_caracteres)
     
     return senha
 
-# Exemplo de uso: gerar senha com comprimento 12
-senha_gerada = gerar_senha(12)
+senha_gerada = gerar_senha(int(input("Digite o comprimento desejado para a senha: ")))
 print("Senha gerada:", senha_gerada)

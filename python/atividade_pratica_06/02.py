@@ -2,7 +2,6 @@
 'Random User Generator'. O programa deve exibir o nome, email e país do usuário gerado.'''
 
 import requests
-import json
 def gerar_perfil_usuario():
     url = 'https://randomuser.me/api/'
     resposta = requests.get(url)
