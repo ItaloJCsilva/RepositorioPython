@@ -1,0 +1,23 @@
+{
+    "Nome": [
+        "Ana",
+        "Carlos",
+        "Maria",
+        "Daniel",
+        "José"
+    ],
+    "Idade": [
+        21,
+        34,
+        29,
+        45,
+        30
+    ],
+    "Cidade": [
+        "Recife",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Curitiba",
+        "Xique-Xique"
+    ]
+}
